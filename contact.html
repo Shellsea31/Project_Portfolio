@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css>
+    <link rel="stylesheet" href="./Assets/Images/reset.css">
     <title>Contact</title>
 </head>
 <body>
@@ -29,34 +30,39 @@
         </div>
       </nav>
 
-    
-       <!-- This is where user can input info -->
-      <form>
-
-          <h1>Contact</h1>
-
-          <!-- Input name -->
-        <div class="form-row">
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Full Name">
+    <main class="container">
+      <section class="row">
+        <div class="col-md-12">
+          <form>
+      
+            <h1>Contact</h1>
+  
+            <!-- Input name -->
+          <div class="form-row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Full Name">
+            </div>
           </div>
+          <!-- Input email -->
+          <div class="form-row">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+          </div>
+          <!-- input message -->
+          <div class="form-row">
+              <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Message">
+              </div>
+          </div>
+  
+        </form>
+      <!-- submit when done -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+  
         </div>
-        <!-- Input email -->
-        <div class="form-row">
-            <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Email">
-            </div>
-        </div>
-        <!-- input message -->
-        <div class="form-row">
-            <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Message">
-            </div>
-        </div>
-
-      </form>
-    <!-- submit when done -->
-      <button type="submit" class="btn btn-primary">Submit</button>
+      </section>
+    </main>
 
 
       <!-- This is for javascript behavior -->
