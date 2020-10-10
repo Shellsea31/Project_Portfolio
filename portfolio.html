@@ -1,72 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./Assets/Images/reset.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Assets/Images/reset.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
 
-    <!-- This is a nav bar copied from bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html">Shelsy's Page</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Info</a>
-            </li>
-          </ul>
+  <!-- This is a nav bar copied from bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./index.html">Shelsy's Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Info</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+  <!-- This is the container with portfolio placeholders -->
+  <main class="container">
+
+    <!-- This is just the header -->
+    <section class="row">
+      <div class="col-sm-12">
+        <div class="page-header">
+          <h1>Portfolio</h1>
         </div>
-      </nav>
+      </div>
+    </section>
 
-      <!-- This is the container with portfolio placeholders -->
-      <main class="container">
+      <hr>
 
-        <!-- This is just the header -->
-          <section class="row">
-              <div class="col-md-6">
-                  <div class="page-header">
-                      <h1>Portfolio</h1>
-                  </div>
-              </div>
+      <!-- This is where the placeholders begin styled with a margin in css file -->
+      <section class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/50" class="card-img-top img-fluid" alt="Picture of Shelsy">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
 
-              <!-- This is where the placeholders begin styled with a margin in css file -->
-              <section class="row">
-                  <div class="col-md-4">
-                      <img src="https://via.placeholder.com/150x150" alt="Picture of Shelsy">
-                    </div>
-                  <div class="col-md-4">
-                      <img src="https://via.placeholder.com/150x150" alt="Picture of Shelsy">
-                    </div>
-                  <div class="col-md-4">
-                      <img src="https://via.placeholder.com/150x150" alt="Picture of Shelsy">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://via.placeholder.com/150x150" alt="Picture of Shelsy">
-                      </div>
-                    <div class="col-md-4">
-                        <img src="https://via.placeholder.com/150x150" alt="Picture of Shelsy">
-                      </div>
-              </section>
-          </section>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/50" class="card-img-top img-fluid" alt="Picture of Shelsy">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
 
-          
-      </main>
+      </section>
+      <br>
+      <br>
+      <section class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/50" class="card-img-top img-fluid" alt="Picture of Shelsy">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
 
-<!-- This is for javascript behavior -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/50" class="card-img-top img-fluid" alt="Picture of Shelsy">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+      </section>
+    
+
+
+  </main>
+
+  <!-- This is for javascript behavior -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
