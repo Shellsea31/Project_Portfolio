@@ -7,3 +7,16 @@
     width: 538px;
 }
 
+p, label{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+
+a, h1{
+    font-family: 'Prata', serif;
+font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    color: #5ac569;
+}
