@@ -8,3 +8,11 @@ This week I was tasked to create a website with a portfolio page, an about me pa
  # Demo
 
  View my page [here](https://shellsea31.github.io/Responsive_Portfolio/).
+
+ # Contributors
+
+ **Shelsy Barrera**
+ * Github: Shellsea31
+ * Gitlab: @Shellsea
+ * LinkedIn: Shelsy Barrera
+ * Email: elainesbarrera@gmail.com
