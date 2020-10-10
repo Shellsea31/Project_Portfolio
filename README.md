@@ -7,4 +7,4 @@ This week I was tasked to create a website with a portfolio page, an about me pa
 
  # Demo
 
- [Click here] (https://shellsea31.github.io/Responsive_Portfolio/) to view the page!
+ View my page [here](https://shellsea31.github.io/Responsive_Portfolio/).
