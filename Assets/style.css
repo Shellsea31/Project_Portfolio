@@ -1,5 +1,6 @@
 body {
     background-image: url(./Images/Festive-Background.jpg);
+    padding-bottom: 70px;
 }
 
 #image {
@@ -45,4 +46,8 @@ h1, h3{
 
 .row-portfolio {
     background-color:	#2a534a;
+}
+
+.fixed-bottom{
+    background-color: #b1c8c3;
 }
